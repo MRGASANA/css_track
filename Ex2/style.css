@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background: #b2e7ff;
+}
+
+footer {
+  background: #3cff78;
+  clear: left;
+}
+
+.wrapper {
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #0ab1ff;
+  width: 1000px;
+}
+
+#container {
+  background: #ededed;
+  width: 1000px;
+}
+
+#content {
+  background: url(exercise2-bg.gif) repeat-y;
+  overflow: hidden;
+}
+
+nav {
+  width: 250px;
+  padding: 25px 10px;
+  float: left;
+}
+
+nav span {
+  font-size: 18px;
+}
+
+nav li, a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav p {
+  font-size: 12px;
+}
+
+section {
+  width: 750px;
+  background: #ededed;
+  padding: 20px;
+  float: left;
+}
+
+section span {
+  font-size: 24px;
+}
+
+section p {
+  font-size: 14px;
+  color: #802525;
+}
