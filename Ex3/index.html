@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Exercise 3</title>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+
+<div id="header">
+    <img id="logo" src="vinsol-logo.png" width="193" height="68" />
+    <span id="contact">Email us at: <span>sales@vinsol.com</span>&nbsp;&nbsp;&nbsp;
+    Skype: <span>Vinsol</span></span>
+</div>
+<div id="main">
+  <header>Please fill the form below</header>
+  <form action="" method="post" id="form">
+
+      <label class="main" for="firstname">First Name</label>
+      <input id="firstname" type="text">
+
+      <label class="main" for="lastname">Last Name</label>
+      <input id="lastname" type="text">
+
+      <label class="main" for="email">Email Address</label>
+      <input id="email" type="email">
+
+      <label class="main" for="password">Password</label>
+      <input id="password" type="password">
+  
+      <label class="main">Gender</label>
+      <input type="radio" name="gender" id="male"><label for="male" class="gender">Male</label>
+      <input type="radio" name="gender" id="female"><label for="female" class="gender">Female</label>
+
+      <label class="main">Date of Birth</label>
+      <select>
+        <option>DD</option>
+      </select>
+      <select>
+        <option>MM</option>
+      </select>
+      <select>
+        <option>YY</option>
+      </select>
+  
+      <label class="main" for="address">Address</label>
+      <textarea id="address"></textarea>
+  
+    <input type="submit" value="Submit Details">
+</form>
+
+</body>
+</html>
