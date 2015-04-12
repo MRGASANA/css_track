@@ -29,19 +29,15 @@ footer {
   border-bottom: 2px solid #0ab1ff;
 }
 
-#content-wrapper {
-  background: #ededed;
-}
-
 #content {
-  background: url(exercise2-bg.gif) repeat-y;
-  overflow: hidden;
+  background: #0ab1ff;
+  display: table;
 }
 
 nav {
   width: 250px;
   padding: 25px 10px;
-  float: left;
+  display: table-cell;
 }
 
 nav span {
@@ -61,7 +57,8 @@ nav p {
 section {
   width: 750px;
   padding: 20px;
-  float: left;
+  background: #ededed;
+  display: table-cell;
 }
 
 section span {
